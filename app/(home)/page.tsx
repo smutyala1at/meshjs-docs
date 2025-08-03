@@ -2,18 +2,11 @@ import Link from 'next/link';
 
 export default function HomePage() {
   return (
-    <main className="flex flex-1 flex-col justify-center text-center">
-      <h1 className="mb-4 text-2xl font-bold">Mesh Docs under construction</h1>
-      <p className="text-fd-muted-foreground">
-        You can open{' '}
-        <Link
-          href="/docs"
-          className="text-fd-foreground font-semibold underline"
-        >
-          /docs
-        </Link>{' '}
-        and see the documentation.
-      </p>
+    <main className="flex flex-1 flex-col m-16">
+      <h1 className="mb-4 text-5xl font-bold">Web3 TypeScript SDK</h1>
+      <h3 className="text-fd-muted-foreground">
+        Mesh is a TypeScript open-source framework and library, providing <br /> numerous tools to build on UTXO-based blockchains.
+      </h3>
     </main>
   );
 }
