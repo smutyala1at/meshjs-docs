@@ -1,9 +1,18 @@
 import { docs } from '@/.source';
 import { loader } from 'fumadocs-core/source';
+import * as outlineIcons from '@heroicons/react/24/solid';
+import { createElement } from 'react';
 
-// See https://fumadocs.vercel.app/docs/headless/source-api for more info
 export const source = loader({
-  // it assigns a URL to your pages
   baseUrl: '/apis',
   source: docs.toFumadocsSource(),
+  icon(iconName) {
+    if (!iconName) return null;
+
+    const IconComponent = outlineIcons[iconName as keyof typeof outlineIcons];
+    if (IconComponent) {
+      return createElement(IconComponent);
+    }
+    return null;
+  },
 });

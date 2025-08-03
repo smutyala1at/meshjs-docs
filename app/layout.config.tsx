@@ -13,7 +13,7 @@ export const baseOptions: BaseLayoutProps = {
     title: (
       <>
         <Image
-          src="/logos/logo-black.svg"
+          src="/logo-mesh/black/logo-mesh-vector.svg"
           width={40}
           height={40}
           alt="Mesh Logo"
