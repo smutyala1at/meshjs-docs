@@ -1,4 +1,4 @@
 {
   "title": "Documentation",
-  "pages": ["wallets", "txbuilder", "txparser", "providers", "utilities", "react", "svelte", "smart-contracts", "aiken"]
+  "pages": ["wallets", "txbuilder", "txparser", "providers", "utilities", "react", "svelte", "smart-contracts", "aiken", "hydra"]
 }
