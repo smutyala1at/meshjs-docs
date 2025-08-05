@@ -10,6 +10,8 @@ const inter = Inter({
 
 // Export the metadata object
 export const metadata: Metadata = {
+  title: 'Mesh',
+  description: 'Web3 TypeScript SDK',
   icons: {
     icon: '/favicon.ico',
     shortcut: 'favicon/favicon-16x16.png',
