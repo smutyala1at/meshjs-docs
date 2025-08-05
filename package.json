@@ -9,7 +9,9 @@
     "postinstall": "fumadocs-mdx"
   },
   "dependencies": {
+    "@fumadocs/mdx-remote": "^1.4.0",
     "@heroicons/react": "^2.2.0",
+    "@icons-pack/react-simple-icons": "^13.7.0",
     "class-variance-authority": "^0.7.1",
     "fumadocs-core": "15.6.5",
     "fumadocs-mdx": "11.7.0",
