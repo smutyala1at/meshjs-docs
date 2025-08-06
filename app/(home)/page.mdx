@@ -101,7 +101,7 @@ import { iconResolver } from "@/lib/iconResolver"
     <Card
       title="Midnight"
       href="https://midnight.meshjs.dev/en"
-      icon={iconResolver("icons/midnight.svg")}
+      icon={iconResolver("icons/midnight.svg", "invert dark:invert-0")}
     >
       Leveraging zero-knowledge technology to enable data protection
     </Card>
@@ -109,7 +109,7 @@ import { iconResolver } from "@/lib/iconResolver"
     <Card
       title="Polkadot"
       href="https://polkadot.meshjs.dev/en"
-      icon={iconResolver("icons/polkadot.svg")}
+      icon={iconResolver("icons/polkadot.svg", "invert dark:invert-0")}
     >
       Tools and resources for developers to build on Polkadot
     </Card>
@@ -117,7 +117,7 @@ import { iconResolver } from "@/lib/iconResolver"
     <Card
       title="Wallet as a Service"
       href="https://web3.meshjs.dev/"
-      icon={iconResolver("icons/mesh.svg")}
+      icon={iconResolver("icons/mesh.svg", "invert dark:invert-0")}
     >
       Access self-custodial wallet using social logins
     </Card>
@@ -131,7 +131,7 @@ import { iconResolver } from "@/lib/iconResolver"
       <h2 className="text-xl font-semibold">Get started with one command</h2>
       <h3 className="text-fd-muted-foreground">Instantly set up a new project with a single command using Mesh CLI and start building.</h3>
 
-      <div className="relative bg-[#272727] text-sm p-3 rounded-md w-96">
+      <div className="relative text-sm p-3 rounded-md w-96 bg-gray-200 dark:bg-[#272727] text-black dark:text-white">
         <code>npx meshjs your-app-name</code>
       </div>
     </div>
@@ -141,7 +141,7 @@ import { iconResolver } from "@/lib/iconResolver"
       <h3 className="text-fd-muted-foreground">
         In Mesh Playground, most endpoints have live demo for you to try to see how it works, then copy the code snippet and use it.
       </h3>
-      <Link className="underline underline-offset-4 decoration-2 text-fd-muted-foreground" href="/apis">Explore Mesh APIs ></Link>
+      <Link className="underline underline-offset-4 decoration-2" href="/apis">Explore Mesh APIs ></Link>
     </div>
 
     <div className="space-y-2">
@@ -149,7 +149,7 @@ import { iconResolver } from "@/lib/iconResolver"
       <h3 className="text-fd-muted-foreground">
         Most popular smart contracts are available for you to use in your app. End-to-end implementation useful for learning too.
       </h3>
-      <Link className="underline underline-offset-4 decoration-2 text-fd-muted-foreground" href="/apis/smart-contracts">Start using smart contracts ></Link>
+      <Link className="underline underline-offset-4 decoration-2" href="/apis/smart-contracts">Start using smart contracts ></Link>
     </div>
 
     <div className="space-y-2">
@@ -157,7 +157,7 @@ import { iconResolver } from "@/lib/iconResolver"
       <h3 className="text-fd-muted-foreground">
         Whether you're a new or seasoned full-stack developer, these guides and resources are here to help you.
       </h3>
-      <Link className="underline underline-offset-4 decoration-2 text-fd-muted-foreground" href="/apis/resources">Check out resources ></Link>
+      <Link className="underline underline-offset-4 decoration-2" href="/apis/resources">Check out resources ></Link>
     </div>
   </div>
 </main>

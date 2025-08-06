@@ -4,7 +4,7 @@ import { createElement } from 'react';
 import type { ReactElement } from 'react';
 
 
-export function iconResolver(iconName?: string | null): ReactElement | undefined {
+export function iconResolver(iconName?: string | null, className: string = ""): ReactElement | undefined {
   if (!iconName) {
     return undefined;
   }
@@ -23,6 +23,7 @@ export function iconResolver(iconName?: string | null): ReactElement | undefined
     src: `/${iconName}`,
     alt: `${iconName} icon`,
     width: 20,
-    height: 20
+    height: 20,
+    className: className
   });
 }
